@@ -16,11 +16,8 @@ import org.json.simple.JSONArray;
 
 @WebServlet("/generateCodingProblem")
 public class CodingProblemServlet extends HttpServlet {
-    private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String API_KEY = "sk-proj-Z1m-r7NZmBTpyxQjA7OqIhbrikcopBkRVeOUc"
-    										+ "t10EkZ95V5IDcT_-mBcRWYT4oNb0W4ta6c5G3T3Blbk"
-    										+ "FJWyND-rV-wcTItbwOVXcZLfyNhELoIp4T4lS8LYH8XB"
-    										+ "Rc1mHiWHJtU3FRQ4xmP12GGFzBahJa0A";
+    private static final String API_URL = "";
+    private static final String API_KEY = "";
 
     @SuppressWarnings("unchecked")
 	@Override
